@@ -1,0 +1,36 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "simple webdev todo list app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack server --open",
+    "publish": "git subtree push --prefix dist origin gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zman64/todo.git"
+  },
+  "author": "Zach Kahlig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zman64/todo/issues"
+  },
+  "homepage": "https://github.com/zman64/todo#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "eslint": "^8.43.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "html-webpack-plugin": "^5.5.3",
+    "prettier": "2.8.8",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
